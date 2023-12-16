@@ -1,0 +1,97 @@
+body {
+    font-family: 'Caveat Brush', cursive;
+    margin: 0; /* Remove default margin to make the header and footer stretch the full width */
+    background-color: hsl(0, 0%, 100%);
+}
+
+header {
+    background: linear-gradient(rgb(255, 158, 62), rgba(0, 0, 0, 0));
+    color: #fff;
+    padding: 0px;
+    padding-left: 20px;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height:50px;
+}
+h4{
+    color:rgb(0, 0, 0);
+    margin:0px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+p{
+    color:#0000009d;
+    margin:0px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+footer {
+    background: linear-gradient(rgb(0, 0, 0,0), rgba(193, 86, 255, 0.153));
+    color: #6d6d6d;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.image-holder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px; /* Adjust as needed to add space between images */
+    padding:0px; /* Add padding to the container */
+margin-bottom: 20px;
+}
+
+.image-holder img {
+    width: 100%;
+    height: auto;
+  }
+
+  .image-center {
+ background-color: rgb(219, 147, 70);
+ color:#f7f7f7;
+ text-align: center;
+ padding: 20px;
+  }
+
+
+  
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.timeline-item {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.line {
+    width: 45px;
+    text-align: right;
+    border-right: 2px solid rgba(0, 0, 0, 0.289); /* Change the color to purple */
+    color: rgb(0, 0, 0); /* Change the color to purple */
+
+}
+
+.content {
+    margin-top: 30px;
+    padding-left: 20px;
+    width: 80%;
+}
+
+.line-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
