@@ -4,8 +4,7 @@ body {
 }
 
 header {
-    font-family: 'Caveat Brush', cursive;
-    background: linear-gradient(rgba(255, 255, 255, 0.628), rgba(0, 0, 0, 0));
+   background: linear-gradient(rgba(255, 255, 255, 0.628), rgba(0, 0, 0, 0));
     color: #ffae00;
     padding: 0px;
     padding-left: 20px;
