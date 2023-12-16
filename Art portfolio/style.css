@@ -1,11 +1,11 @@
 body {
-    font-family: 'Caveat Brush', cursive;
-    margin: 0; /* Remove default margin to make the header and footer stretch the full width */
+     margin: 0; /* Remove default margin to make the header and footer stretch the full width */
     background-color: hsl(0, 0%, 100%);
 }
 
 header {
-    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    font-family: 'Caveat Brush', cursive;
+    background: linear-gradient(rgba(0, 0, 0, 0.628), rgba(0, 0, 0, 0));
     color: #fff;
     padding: 0px;
     padding-left: 20px;
