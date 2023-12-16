@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background: linear-gradient(rgb(255, 158, 62), rgba(0, 0, 0, 0));
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
     color: #fff;
     padding: 0px;
     padding-left: 20px;
