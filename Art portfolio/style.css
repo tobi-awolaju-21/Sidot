@@ -17,7 +17,7 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: rgb(49, 169, 255);/* Change the color as needed */
+    background-color: rgb(255, 149, 0);/* Change the color as needed */
     pointer-events: none; /* Ensure the cursor does not interfere with other elements */
     transform: translate(-50%, -50%);
     transition: width 0.1s, height 0.1s; /* Add transition for a smooth effect */
@@ -46,8 +46,8 @@ h4{
 }
 
 .hire-me{
-    background-color: rgb(0, 153, 255);
-    color:#ffffff;
+    background-color: rgb(255, 221, 0);
+    color:#000000;
     border-radius: 50px;
     margin:35px;
     padding: 15px;
@@ -95,12 +95,15 @@ margin-bottom: 50px;
   }
 
   .image-center {
- background-color: rgb(0, 140, 255);
+ background-color: rgb(0, 0, 0);
  color:#ffffff;
  text-align: center;
- padding: 20px;
+ padding: 0px;
   }
 
+  img{
+    opacity: 50%;
+  }
 
   
 .timeline {
