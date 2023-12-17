@@ -43,6 +43,8 @@ h4{
 }
 
 .hire-me{
+    background-color: initial; /* Set the initial background color */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
     background-color: rgb(33, 255, 126);
     color:#000000;
     border-radius: 50px;
@@ -55,6 +57,14 @@ h4{
     right: -20px;
     z-index: 200;
 }
+   
+  
+  .hire-me:hover {
+    background-color: #ffee00; /* Set the background color on hover */
+    color:rgb(0, 0, 0)
+}
+
+
 
 h5{
     color:rgb(255, 255, 255);
@@ -144,7 +154,8 @@ margin-bottom: 50px;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vw;
+    height: 70vw;
+    padding-top: calc(15vw);
     background: linear-gradient(rgba(0, 0, 0, 0.694), rgba(0, 0, 0, 0));
     display: flex;
     flex-direction: column;
