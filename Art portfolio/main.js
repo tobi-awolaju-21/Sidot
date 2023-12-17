@@ -20,3 +20,15 @@ document.addEventListener('DOMContentLoaded', function () {
       cursor.style.height = '20px';
     });
   });
+
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const cursor = document.querySelector('.custom-cursor');
+
+    document.addEventListener('mousemove', (e) => {
+      // Set the cursor's position to the mouse coordinates
+      cursor.style.left = e.pageX + 'px';
+      cursor.style.top = e.pageY + 'px';
+    });
+  });
