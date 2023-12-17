@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // For example, you may want to change the cursor size on hover
     document.addEventListener('mouseenter', () => {
-      cursor.style.width = '45px';
-      cursor.style.height = '45px';
+      cursor.style.width = '40px';
+      cursor.style.height = '40px';
     });
 
     document.addEventListener('mouseleave', () => {
