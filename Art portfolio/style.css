@@ -42,14 +42,15 @@ h4{
     margin:8px;
 }
 
-.hire-me{
+.hire-me{ text-decoration: none;
+
     background-color: initial; /* Set the initial background color */
     transition: background-color 0.3s ease; /* Add a smooth transition effect */
-    background-color: rgb(33, 255, 126);
-    color:#000000;
+    background-color: rgb(8, 145, 83); 
+    color:#ffffff;
     border-radius: 50px;
     margin:35px;
-    padding: 15px;
+    padding: 10px;
     width: auto;
     text-align: center;
     position: fixed;
@@ -60,10 +61,13 @@ h4{
    
   
   .hire-me:hover {
-    background-color: #ffee00; /* Set the background color on hover */
-    color:rgb(0, 0, 0)
+    background-color: rgb(255, 255, 255); /* Set the background color on hover */
+    color:rgb(0, 0, 0);
 }
 
+.more{
+  color: rgba(255, 255, 255, 0.223); 
+}
 
 
 h5{
@@ -84,7 +88,7 @@ footer {
     bottom: 0;
     width: 100%;
     margin-top:100px ;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 
