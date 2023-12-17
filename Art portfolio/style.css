@@ -16,6 +16,7 @@
    /* Remove default margin to make the header and footer stretch the full width */
    background-color: hsl(0, 0%, 0%);
    cursor: none;
+  
  }
 
  .custom-cursor {
@@ -26,9 +27,11 @@
    transition: width 0.5s, height 0.5s;
    /* Add transition for a smooth effect */
    z-index: 300;
-
  }
 
+
+
+ 
  header {
    background: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));
    color: #ffffff;
