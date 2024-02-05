@@ -45,9 +45,8 @@ p {
 
 .container {
   height: 100%;
-  overflow-y: auto;
+  overflow: hidden;
   position: relative; /* Set relative positioning for stacking order */
-
   /* Default padding for desktop */
   padding-left: 2.5vw;
   padding-right: 2.5vw;
@@ -94,21 +93,20 @@ p {
     
     /* Additional styling for demonstration purposes */
     .fap1 {
-      overflow-y: auto;
+      padding-top: 10px;
+      overflow: auto;
       background-color: #f6f6f64c;
       color: #d3d3d3;
-      padding-top: 20px;
       border-top-left-radius: 20px; /* Apply border-radius to top-left corner */
       border-top-right-radius: 20px; /* Apply border-radius to top-right corner */    
-
       z-index: 1; /* Place fap2 on top of fap1 */
         }
 
     .fap2 {
-      overflow-y: auto;
+      padding-top: 10px;
+      overflow: auto;
       background-color: #f6f6f6;
       color: #c9c9c9;
-      padding-top: 20px;
       border-top-left-radius: 20px; /* Apply border-radius to top-left corner */
       border-top-right-radius: 20px; /* Apply border-radius to top-right corner */    
       z-index: 2; /* Place fap2 on top of fap1 */
@@ -116,23 +114,22 @@ p {
 
 
    .fap3 {
+  padding-top: 10px;
   overflow-y: auto;
   background-color: #eaeaea;
   color: #b0b0b0;
-  padding-top: 20px;
   border-top-left-radius: 20px; /* Apply border-radius to top-left corner */
   border-top-right-radius: 20px; /* Apply border-radius to top-right corner */    
   z-index: 3; /* Place fap2 on top of fap1 */
 }
 
     .fap4 {
+      padding-top: 10px;
       background-color: #c6c6c6;
       color: #666666;
-      padding-top: 20px;
       border-top-left-radius: 20px; /* Apply border-radius to top-left corner */
       border-top-right-radius: 20px; /* Apply border-radius to top-right corner */    
       z-index: 3; /* Place fap3 on top of fap2 */
-      padding: 10px;
     }
 
 
@@ -141,11 +138,41 @@ p {
       height: 100vh; 
     }
 
-    .content{
+
+
+    .content1{
+      background-color: #f6f6f64c;
       position:sticky;
       top: 0;
       margin: 10px;
+      height: 100%;
     }
 
+    .content2{
+      background-color: #f6f6f6;
+      position:sticky;
+      top: 0;
+      margin: 10px;
+      height: 100%;
+    }
+
+    .content3{
+      background-color: #eaeaea;
+      position:sticky;
+      top: 0;
+      margin:10px;
+      height: 100%;
+    }
+    
+
+
+    .content4{
+      background-color: #c6c6c6;
+      position:sticky;
+      top: 0;
+      margin: 10px;
+      margin-top: -8px;
+      height: 100%;
+    }
     
 

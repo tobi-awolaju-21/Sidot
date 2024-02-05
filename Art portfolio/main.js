@@ -45,6 +45,12 @@ window.onload = function () {
 
 
 
+
+};
+
+
+
+
   // play a mfing song
  // Create an audio element
  const audio = new Audio('theme.mp3');
@@ -77,8 +83,3 @@ window.onload = function () {
   setTimeout(() => {
     decreaseVolume();
   }, 5000);
-
-};
-
-
-
