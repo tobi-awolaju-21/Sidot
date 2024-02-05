@@ -37,49 +37,13 @@ window.onload = function () {
   };
 
   // Scroll to the last item with animation
-  scrollTo(container, lastItem.offsetTop, 1000);
-  scrollTo(fap1, fap1l.offsetTop, 1500);
-  scrollTo(fap2, fap2l.offsetTop, 2500);
-  scrollTo(fap3, fap3l.offsetTop, 4500);
+  scrollTo(container, lastItem.offsetTop, 500);
+  scrollTo(fap1, fap1l.offsetTop, 800);
+  scrollTo(fap2, fap2l.offsetTop, 1600);
+  scrollTo(fap3, fap3l.offsetTop, 2000);
 
 
 
 
 
 };
-
-
-
-
-  // play a mfing song
- // Create an audio element
- const audio = new Audio('theme.mp3');
-
- // Set the loop property to true
- audio.loop = true;
-
-  // Play the audio
-  audio.play();
-
-  // Gradually decrease the volume over 5 seconds
-  const fadeOutDuration = 5000; // in milliseconds
-  const fadeOutInterval = 100;   // interval for volume adjustment
-
-  const decreaseVolume = () => {
-    const interval = fadeOutDuration / fadeOutInterval;
-    const decreaseAmount = audio.volume / interval;
-
-    const fadeOutIntervalId = setInterval(() => {
-      audio.volume -= decreaseAmount;
-
-      if (audio.volume <= 0) {
-        audio.pause();
-        clearInterval(fadeOutIntervalId);
-      }
-    }, fadeOutInterval);
-  };
-
-  // Call the function to start fading out after 5 seconds (5000 milliseconds)
-  setTimeout(() => {
-    decreaseVolume();
-  }, 5000);
