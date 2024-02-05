@@ -101,11 +101,7 @@ p {
     .fap2 {
       padding-top: 50px;
       overflow: auto;
-      background-color: #f6f6f6;
-      color: #c9c9c9;
-      border-top-left-radius: 20px; /* Apply border-radius to top-left corner */
-      border-top-right-radius: 20px; /* Apply border-radius to top-right corner */    
-      z-index: 2; /* Place fap2 on top of fap1 */
+     z-index: 2; /* Place fap2 on top of fap1 */
     }
 
 
@@ -137,6 +133,7 @@ p {
 
 
     .content1{
+      text-align: center;
       position:sticky;
       top: 0;
       height: 100%;
@@ -180,7 +177,7 @@ p {
 
     img{
     border-radius: 10px;
-    width: 100%;
+    width: 95%;
     }
     
     .everyday_nav{
