@@ -1,35 +1,17 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const cursor = document.querySelector('.custom-cursor');
-
-    document.addEventListener('mousemove', (e) => {
-      // Set the cursor's position to the mouse coordinates
-      cursor.style.left = e.pageX + 'px';
-      cursor.style.top = e.pageY + 'px';
-    });
-
-    // You can add additional functionality or customize the cursor further as needed
-
-    // For example, you may want to change the cursor size on hover
-    document.addEventListener('mouseenter', () => {
-      cursor.style.width = '40px';
-      cursor.style.height = '40px';
-    });
-
-    document.addEventListener('mouseleave', () => {
-      cursor.style.width = '20px';
-      cursor.style.height = '20px';
-    });
-  });
+window.onload = function () {
+  var container = document.querySelector('.container');
+  var lastItem = container.lastElementChild;
+  var fap1 = document.querySelector('.fap1');
+  var fap1l = fap1.lastElementChild;
+  var fap2 = document.querySelector('.fap2');
+  var fap2l = fap2.lastElementChild;
+  var fap3 = document.querySelector('.fap3');
+  var fap3l = fap3.lastElementChild;
 
 
-
-  document.addEventListener('DOMContentLoaded', function () {
-    const cursor = document.querySelector('.custom-cursor');
-
-    document.addEventListener('mousemove', (e) => {
-      // Set the cursor's position to the mouse coordinates
-      cursor.style.left = e.pageX + 'px';
-      cursor.style.top = e.pageY + 'px';
-    });
-  });
-
+  // Scroll to the last item
+  container.scrollTop = lastItem.offsetTop;
+  fap1.scrollTop = fap1l.offsetTop;
+  fap2.scrollTop = fap2l.offsetTop;
+  fap3.scrollTop = fap3l.offsetTop;
+};
