@@ -29,6 +29,8 @@ p {
 
 
 
+
+
 .navbar a {
   float: left;
   display: block;
@@ -41,7 +43,6 @@ p {
 .navbar a:hover {
   color: rgb(0, 0, 0);
 }
-
 
 .container {
   height: 100%;
@@ -76,7 +77,7 @@ p {
 
 
 .fap1 {
-  height: 73vh;
+  height: 100vh;
 }
 
 .fap2 {
@@ -84,11 +85,11 @@ p {
 }
 
 .fap3 {
-  height: 50vh;
+  height: 40vh;
 }
 
 .fap4 {
-  height: 40vh;
+  height: 30vh;
 }
     
     /* Additional styling for demonstration purposes */
@@ -136,7 +137,6 @@ p {
 
 
     .content1{
-      background-color: #f6f6f64c;
       position:sticky;
       top: 0;
       height: 100%;
@@ -184,4 +184,10 @@ p {
     width: 100%;
     }
     
-
+    .everyday_nav{
+      position: relative;
+      top: 50px;
+      padding-left: 20px;
+      font-size: 30px;
+      color: #ffffff;
+    }
