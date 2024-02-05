@@ -1,9 +1,151 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 20px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-size: large;
+}
+
+p {
+  margin: 20px;
+  margin-top: 10px;
+  font-size: small;
+}
+
+.navbar {
+  background-color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
 
 
- body {
-   margin: 0;
-   /* Remove default margin to make the header and footer stretch the full width */
-   cursor: none;
-  
- }
+
+.navbar a {
+  float: left;
+  display: block;
+  color: rgb(180, 180, 180);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: rgb(0, 0, 0);
+}
+
+
+.container {
+  height: 100%;
+  overflow-y: auto;
+  position: relative; /* Set relative positioning for stacking order */
+
+  /* Default padding for desktop */
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+}
+
+/* Media query for screens with a maximum width of 767px (typical for mobile devices) */
+@media only screen and (max-width: 767px) {
+  .container {
+    /* Adjust padding for mobile */
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .foot{
+    margin-left: 0;
+  }
+
+  .navbar{
+    position: fixed; /* Fixed positioning for the left sidebar */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */  
+  }
+}
+
+
+
+
+
+.fap1 {
+  height: 73vh;
+}
+
+.fap2 {
+  height: 60vh;
+}
+
+.fap3 {
+  height: 50vh;
+}
+
+.fap4 {
+  height: 40vh;
+}
+    
+    /* Additional styling for demonstration purposes */
+    .fap1 {
+      overflow-y: auto;
+      background-color: #f6f6f64c;
+      color: #000000;
+      padding-top: 20px;
+      border-top-left-radius: 20px; /* Apply border-radius to top-left corner */
+      border-top-right-radius: 20px; /* Apply border-radius to top-right corner */    
+
+      z-index: 1; /* Place fap2 on top of fap1 */
+        }
+
+    .fap2 {
+      overflow-y: auto;
+      background-color: #f6f6f6;
+      color: #000000;
+      padding-top: 20px;
+      border-top-left-radius: 20px; /* Apply border-radius to top-left corner */
+      border-top-right-radius: 20px; /* Apply border-radius to top-right corner */    
+      z-index: 2; /* Place fap2 on top of fap1 */
+    }
+
+
+   .fap3 {
+  overflow-y: auto;
+  background-color: #eaeaea;
+  color: #000000;
+  padding-top: 20px;
+  border-top-left-radius: 20px; /* Apply border-radius to top-left corner */
+  border-top-right-radius: 20px; /* Apply border-radius to top-right corner */    
+  z-index: 3; /* Place fap2 on top of fap1 */
+}
+
+    .fap4 {
+      background-color: #c6c6c6;
+      color: #262626;
+      padding-top: 20px;
+      border-top-left-radius: 20px; /* Apply border-radius to top-left corner */
+      border-top-right-radius: 20px; /* Apply border-radius to top-right corner */    
+      z-index: 3; /* Place fap3 on top of fap2 */
+      padding: 10px;
+    }
+
+
+    
+    .box{
+      height: 35vh; 
+    }
+
+    .content{
+      position:sticky;
+      top: 0;
+      margin: 10px;
+    }
+
+    
 
