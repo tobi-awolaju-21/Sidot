@@ -77,7 +77,7 @@ p {
 
 
 .fap1 {
-  height: 100vh;
+  height: 73vh;
 }
 
 .fap2 {
@@ -85,11 +85,11 @@ p {
 }
 
 .fap3 {
-  height: 40vh;
+  height: 50vh;
 }
 
 .fap4 {
-  height: 30vh;
+  height: 40vh;
 }
     
     /* Additional styling for demonstration purposes */
@@ -185,9 +185,7 @@ p {
     }
     
     .everyday_nav{
-      position: relative;
-      top: 50px;
+      font-size: small;
       padding-left: 20px;
-      font-size: 30px;
-      color: #ffffff;
-    }
+      position: relative;
+   }
