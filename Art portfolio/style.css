@@ -46,7 +46,7 @@ p {
 
 .container {
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
   position: relative; /* Set relative positioning for stacking order */
   /* Default padding for desktop */
   padding-left: 20vw;
@@ -127,7 +127,7 @@ p {
 
     
     .box{
-      height: 100vh; 
+      height: 0vh; 
     }
 
 
