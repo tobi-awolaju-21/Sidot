@@ -49,8 +49,8 @@ p {
   overflow: auto;
   position: relative; /* Set relative positioning for stacking order */
   /* Default padding for desktop */
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
 }
 
 /* Media query for screens with a maximum width of 767px (typical for mobile devices) */
