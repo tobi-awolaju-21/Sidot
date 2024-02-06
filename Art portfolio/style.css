@@ -109,7 +109,7 @@ p {
   padding-top: 50px;
   overflow-y: auto;
   background-color: #eaeaea;
-  color: #b0b0b0;
+  color: #000000;
   border-top-left-radius: 20px; /* Apply border-radius to top-left corner */
   border-top-right-radius: 20px; /* Apply border-radius to top-right corner */    
   z-index: 3; /* Place fap2 on top of fap1 */
@@ -142,7 +142,7 @@ p {
     }
 
     .content2{
-      background-color: #f6f6f6;
+      background-color: #FFFAEA;
       position:sticky;
       top: 0;
       height: 100%;
@@ -153,7 +153,7 @@ p {
     }
 
     .content3{
-      background-color: #eaeaea;
+      background-color: #FFF3D2;
       position:sticky;
       top: 0;
       height: 100%;
@@ -166,7 +166,8 @@ p {
 
 
     .content4{
-      background-color: #c6c6c6;
+      background-color: #000000;
+      color:#ffffff;
       position:sticky;
       top: 0;
       height: 100%;
