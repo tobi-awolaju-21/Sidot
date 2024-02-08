@@ -143,7 +143,7 @@ p {
     }
 
     .content2{
-      background-color: rgb(234, 234, 234);;
+      background-color: #f9ece1;
       position:sticky;
       top: 0;
       height: 100%;
@@ -154,7 +154,7 @@ p {
     }
 
     .content3{
-      background-color: rgb(179, 179, 179);
+      background-color: #d3a987;
       position:sticky;
       top: 0;
       height: 100%;
@@ -167,7 +167,7 @@ p {
 
 
     .content4{
-      background-color: #000000;
+      background-color: #774f2f;
       color:#ffffff;
       position:sticky;
       top: 0;
