@@ -38,9 +38,16 @@ window.onload = function () {
 
   // Scroll to the last item with animation
   scrollTo(container, lastItem.offsetTop, 500);
-  scrollTo(fap1, fap1l.offsetTop, 800);
-  scrollTo(fap2, fap2l.offsetTop, 1600);
-  scrollTo(fap3, fap3l.offsetTop, 2000);
+  
+  setTimeout(function() {  
+scrollTo(fap1, fap1l.offsetTop, 800);
+  }, 2000);
+  setTimeout(function() {  
+scrollTo(fap2, fap2l.offsetTop, 1600);
+  }, 3000);
+  setTimeout(function() {
+scrollTo(fap3, fap3l.offsetTop, 2000);
+      }, 4000);
 
 
 
