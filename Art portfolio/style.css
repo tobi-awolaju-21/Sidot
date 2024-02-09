@@ -2,7 +2,6 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   height: 100vh;
-  overflow: hidden;
 }
 
 h1 {
@@ -45,16 +44,22 @@ p {
 }
 
 .container {
+  padding-top: 30px;
   height: 100%;
-  overflow: hidden;
+  overflow: visible;
   position: relative; /* Set relative positioning for stacking order */
   /* Default padding for desktop */
   padding-left: 20vw;
   padding-right: 20vw;
 }
 
+
+
 /* Media query for screens with a maximum width of 767px (typical for mobile devices) */
 @media only screen and (max-width: 767px) {
+
+ 
+  
   .container {
     /* Adjust padding for mobile */
     padding-left: 0;
@@ -73,6 +78,23 @@ p {
 }
 
 
+/* Default styles for desktop */
+.desktopMode {
+  display: block;
+}
+.mobileMode {
+  display: none;
+}
+
+/* Mobile mode */
+@media (max-width: 767px) {
+  .desktopMode {
+    display: none;
+  }
+  .mobileMode {
+    display: block;
+  }
+}
 
 
 
@@ -218,7 +240,7 @@ p {
 
 .view-works{
   text-align: right;
-  background-color: rgba(0, 128, 255, 0.574);
+  background-color: #774f2f73;
   color:#ffffff;
   padding-top: 5px;
   padding-bottom: 10px;
