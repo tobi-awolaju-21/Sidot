@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif;
   height: 100vh;
   overflow: visible;
+  height: 200vh;
 }
 /* Mobile mode */
 @media (max-width: 767px) {
@@ -94,6 +95,7 @@ p {
 /* Default styles for desktop */
 .desktopMode {
   display: block;
+  overflow-x: hidden;
 }
 .mobileMode {
   display: none;
@@ -216,6 +218,11 @@ p {
     border-radius: 10px;
     width: 95%;
     }
+    img {
+      transition: transform 0.5s ease-in-out;
+    }
+
+
     
     .everyday_nav{
       font-size: small;
@@ -260,4 +267,61 @@ p {
   padding-right: 12px;
   position: relative;
   top:-33px;
+}
+
+
+
+
+.myworkDesktop {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, calc((80vw / 4) - 13px));
+  gap: 10px; /* Adjust the gap as needed */
+}
+
+.myworkDesktop-item {
+  width: 100%;
+  padding-bottom: 100%; /* This ensures a square aspect ratio for the images */
+  position: relative;
+  overflow: hidden;
+}
+
+.myworkDesktop-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+}
+.everyday_nav_desktop1{
+   position: relative;
+   top: -50vw;
+   z-index: 3;
+   background-color: rgba(255, 0, 191, 0.33);
+   color: white;
+   width: 400px;
+}
+
+.everyday_nav_desktop2{
+  position: relative;
+  right: -50vw;
+  top: -40vw;
+  z-index: 3;
+  background-color: rgb(141, 0, 169);
+  color:white;
+  width: 160px;
+}
+
+.desktopMode_Sections{
+  font-size:35px;
+}
+
+.desktopMode_Sub_Sections{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #888888;
+  font-size:20px;
 }
