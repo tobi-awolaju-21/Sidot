@@ -2,7 +2,18 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   height: 100vh;
+  overflow: visible;
 }
+/* Mobile mode */
+@media (max-width: 767px) {
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+
 
 h1 {
   margin: 20px;
@@ -43,29 +54,9 @@ p {
   color: rgb(0, 0, 0);
 }
 
-.container {
-  padding-top: 30px;
-  height: 100%;
-  overflow: visible;
-  position: relative; /* Set relative positioning for stacking order */
-  /* Default padding for desktop */
-  padding-left: 20vw;
-  padding-right: 20vw;
-}
-
-
 
 /* Media query for screens with a maximum width of 767px (typical for mobile devices) */
 @media only screen and (max-width: 767px) {
-
- 
-  
-  .container {
-    /* Adjust padding for mobile */
-    padding-left: 0;
-    padding-right: 0;
-  }
-
   .foot{
     margin-left: 0;
   }
@@ -76,6 +67,28 @@ p {
     transform: translateX(-50%); /* Center horizontally */  
   }
 }
+
+
+.container {
+  padding-top: 30px;
+  height: 100%;
+  overflow:visible;
+  position: relative; 
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+/* Mobile mode */
+@media (max-width: 767px) {
+  .container {
+    /* Adjust padding for mobile */
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+  }
+  
+}
+
 
 
 /* Default styles for desktop */
