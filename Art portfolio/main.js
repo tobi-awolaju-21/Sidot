@@ -71,12 +71,6 @@ function handleImage() {
   var backgroundColor = `rgba(${red}, ${green}, ${blue})`;
   document.getElementById('content4').style.backgroundColor = backgroundColor;
 
-
-
-
-
-console.log(`rgba(${maxColor}, 0.75)`);
-
 }
 
 // Call handleImage function when the page loads
