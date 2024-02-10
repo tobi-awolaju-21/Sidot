@@ -46,6 +46,10 @@ function handleImage() {
   var blue = colorValues[2]/1.1;
   var backgroundColor = `rgba(${red}, ${green}, ${blue})`;
   document.getElementById('content2').style.backgroundColor = backgroundColor;
+  var backgroundColor = `rgba(${red}, ${green}, ${blue},0.50)`;
+  document.getElementById('view-works').style.backgroundColor = backgroundColor;
+
+
 
   // Set the background color of the specified div with 75% alpha
   var colorString = maxColor;
@@ -55,7 +59,6 @@ function handleImage() {
   var blue = colorValues[2]/1.6;
   var backgroundColor = `rgba(${red}, ${green}, ${blue})`;
   document.getElementById('content3').style.backgroundColor = backgroundColor;
-  document.getElementById('view-works').style.backgroundColor = backgroundColor;
 
 
 
