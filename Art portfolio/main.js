@@ -63,9 +63,9 @@ function handleImage() {
   // Set the background color of the specified div with 100% alpha
    colorString = maxColor;
    colorValues = colorString.match(/\d+/g).map(Number); // Extract numbers using regex and convert to numbers
-   red = colorValues[0]/5;
-   green = colorValues[1]/5;
-   blue = colorValues[2]/5;
+   red = colorValues[0]/7;
+   green = colorValues[1]/7;
+   blue = colorValues[2]/7;
    backgroundColor = `rgba(${red}, ${green}, ${blue})`;
   document.getElementById('content4').style.backgroundColor = backgroundColor;
 
