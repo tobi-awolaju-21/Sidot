@@ -80,13 +80,13 @@ window.onload = handleImage;
 
 
 
-function scrolldown() {
-  var containers = document.querySelectorAll('.fap1, .fap2, .fap3');
+function scrolldown() { 
+  var container1 = document.querySelector('.fap1');
+  var container2 = document.querySelector('.fap2');
+  var container3 = document.querySelector('.fap3');
 
-  containers.forEach(function(container) {
-    container.scrollTop = container.scrollHeight;
-  });
-  
+  container1.scrollTop = container1.scrollHeight * 0.5;
+  container2.scrollTop = container2.scrollHeight;
+  container3.scrollTop = container3.scrollHeight;
 }
-
 

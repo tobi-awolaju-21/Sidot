@@ -90,11 +90,11 @@ p {
 }
 
 .fap3 {
-  height: 85vh;
+  height: 80vh;
 }
 
 .fap4 {
-  height: 80vh;
+  height: 70vh;
 }
     
     /* Additional styling for demonstration purposes */
@@ -140,7 +140,7 @@ p {
 
     .view-works{
       text-align: right;
-      background-color: #ffffff4a;
+      background-color: #ffffff2d;
       color:#ffffff;
       padding-top: 5px;
       padding-bottom: 10px;
