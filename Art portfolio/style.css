@@ -35,7 +35,7 @@ p {
   display: flex;
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
 }
 
 
@@ -114,19 +114,19 @@ p {
 
 
 .fap1 {
-  height: 70vh;
+  height: 95vh;
 }
 
 .fap2 {
-  height: 55vh;
+  height: 90vh;
 }
 
 .fap3 {
-  height: 45vh;
+  height: 85vh;
 }
 
 .fap4 {
-  height: 35vh;
+  height: 80vh;
 }
     
     /* Additional styling for demonstration purposes */

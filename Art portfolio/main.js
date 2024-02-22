@@ -41,9 +41,9 @@ function handleImage() {
   // Set the background color of the specified div with 50% alpha
   var colorString = maxColor;
   var colorValues = colorString.match(/\d+/g).map(Number); // Extract numbers using regex and convert to numbers
-  var red = colorValues[0]/1.1;
-  var green = colorValues[1]/1.1;
-  var blue = colorValues[2]/1.1;
+  var red = colorValues[0]/2;
+  var green = colorValues[1]/2;
+  var blue = colorValues[2]/2;
   var backgroundColor = `rgba(${red}, ${green}, ${blue})`;
   document.getElementById('content2').style.backgroundColor = backgroundColor;
   var backgroundColor = `rgba(${red}, ${green}, ${blue},0.50)`;
@@ -54,9 +54,9 @@ function handleImage() {
   // Set the background color of the specified div with 75% alpha
   var colorString = maxColor;
   var colorValues = colorString.match(/\d+/g).map(Number); // Extract numbers using regex and convert to numbers
-  var red = colorValues[0]/1.6;
-  var green = colorValues[1]/1.6;
-  var blue = colorValues[2]/1.6;
+  var red = colorValues[0]/3;
+  var green = colorValues[1]/3;
+  var blue = colorValues[2]/3;
   var backgroundColor = `rgba(${red}, ${green}, ${blue})`;
   document.getElementById('content3').style.backgroundColor = backgroundColor;
 
