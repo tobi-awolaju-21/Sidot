@@ -85,7 +85,7 @@ function scrolldown() {
   var container2 = document.querySelector('.fap2');
   var container3 = document.querySelector('.fap3');
 
-  container1.scrollTop = container1.scrollHeight * 0.4;
+  container1.scrollTop = container1.scrollHeight;
   container2.scrollTop = container2.scrollHeight;
   container3.scrollTop = container3.scrollHeight;
 }
