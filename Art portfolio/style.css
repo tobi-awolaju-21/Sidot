@@ -4,7 +4,7 @@ body {
   height: 100vh;
   overflow: visible;
   height:auto;
-  background-color: rgb(255, 248, 248);
+  background-color: rgb(255, 255, 255);
 }
 /* Mobile mode */
 @media (max-width: 767px) {
