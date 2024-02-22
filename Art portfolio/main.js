@@ -38,7 +38,7 @@ function handleImage() {
   var red = colorValues[0];
   var green = colorValues[1];
   var blue = colorValues[2];
-  var backgroundColor = `rgba(${red}, ${green}, ${blue})`;
+  var backgroundColor = `rgba(${red}, ${green}, ${blue},0.2)`;
 
   document.body.style.backgroundColor = backgroundColor;
 
