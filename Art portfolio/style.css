@@ -4,6 +4,7 @@ body {
   height: 100vh;
   overflow: visible;
   height:auto;
+  background-color: #000000;
 }
 /* Mobile mode */
 @media (max-width: 767px) {
@@ -18,43 +19,15 @@ body {
 
 h1 {
   margin: 20px;
-  margin-top: 100px;
-  margin-bottom: 0px;
-  font-size: large;
+  font-size: xx-large;
+  color: #fff;
 }
 
 p {
   margin: 20px;
   margin-top: 10px;
-  font-size: small;
+  font-size: medium;
 }
-
-.navbar {
-  background-color: #ffffff;
-  overflow: hidden;
-  display: flex;
-  position: fixed;
-  top: 0;
-  right: 0;
-}
-
-
-
-
-
-.navbar a {
-  float: left;
-  display: block;
-  color: rgb(180, 180, 180);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navbar a:hover {
-  color: rgb(0, 0, 0);
-}
-
 
 /* Media query for screens with a maximum width of 767px (typical for mobile devices) */
 @media only screen and (max-width: 767px) {
@@ -62,11 +35,6 @@ p {
     margin-left: 0;
   }
 
-  .navbar{
-    position: fixed; /* Fixed positioning for the left sidebar */
-    left: 50%;
-    transform: translateX(-50%); /* Center horizontally */  
-  }
 }
 
 
@@ -114,7 +82,7 @@ p {
 
 
 .fap1 {
-  height: 95vh;
+  height: 100vh;
 }
 
 .fap2 {
@@ -244,6 +212,10 @@ p {
    }
    .contact_nav{
  text-align:right;
+ position: fixed;
+ bottom: 0px;
+ right: 0px;
+ margin: 20px;
    }
 
    .mywork {
@@ -287,7 +259,7 @@ p {
   padding-bottom: 100%; /* This ensures a square aspect ratio for the images */
   position: relative;
   overflow: hidden;
-  background-color: #e7e7e7;
+  background-color: #00000044;
 }
 
 .myworkDesktop-item img {
@@ -327,4 +299,9 @@ p {
   margin-bottom: 10px;
   color: #888888;
   font-size:20px;
+}
+.everyday_img{
+  width: 90vw;
+  margin: 20px;
+  border: 2px solid #ffffff21;
 }
