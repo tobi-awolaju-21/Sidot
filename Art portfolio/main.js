@@ -1,19 +1,13 @@
 
 var expectedBodyHeight = 150; // Set the expected height in vh
 var bodyHeight = expectedBodyHeight * window.innerHeight / 100;
-
 window.addEventListener('scroll', function() {
   var scrolled = window.scrollY / (bodyHeight - window.innerHeight);
   var scaleValue = 1 - (0.5 * scrolled);
-  
   // Ensure that scaleValue stays between 0.5 and 1
   scaleValue = Math.max(0.5, Math.min(1, scaleValue));
-
-//  var translateY = scrolled * document.getElementById('scalingImage').offsetHeight;
-
   document.getElementById('scalingImage').style.transform = 'scale(' + scaleValue + ') translateY(' + 0 + 'px)';
 });
-
 
 // get most used color.
 function handleImage() {
@@ -52,23 +46,23 @@ function handleImage() {
 
 
   // Set the background color of the specified div with 75% alpha
-  var colorString = maxColor;
-  var colorValues = colorString.match(/\d+/g).map(Number); // Extract numbers using regex and convert to numbers
-  var red = colorValues[0]/3;
-  var green = colorValues[1]/3;
-  var blue = colorValues[2]/3;
-  var backgroundColor = `rgba(${red}, ${green}, ${blue})`;
+   colorString = maxColor;
+   colorValues = colorString.match(/\d+/g).map(Number); // Extract numbers using regex and convert to numbers
+   red = colorValues[0]/3;
+   green = colorValues[1]/3;
+   blue = colorValues[2]/3;
+   backgroundColor = `rgba(${red}, ${green}, ${blue})`;
   document.getElementById('content3').style.backgroundColor = backgroundColor;
 
 
 
   // Set the background color of the specified div with 100% alpha
-  var colorString = maxColor;
-  var colorValues = colorString.match(/\d+/g).map(Number); // Extract numbers using regex and convert to numbers
-  var red = colorValues[0]/5;
-  var green = colorValues[1]/5;
-  var blue = colorValues[2]/5;
-  var backgroundColor = `rgba(${red}, ${green}, ${blue})`;
+   colorString = maxColor;
+   colorValues = colorString.match(/\d+/g).map(Number); // Extract numbers using regex and convert to numbers
+   red = colorValues[0]/5;
+   green = colorValues[1]/5;
+   blue = colorValues[2]/5;
+   backgroundColor = `rgba(${red}, ${green}, ${blue})`;
   document.getElementById('content4').style.backgroundColor = backgroundColor;
 
 }

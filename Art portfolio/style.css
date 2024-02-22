@@ -287,6 +287,7 @@ p {
   padding-bottom: 100%; /* This ensures a square aspect ratio for the images */
   position: relative;
   overflow: hidden;
+  background-color: #e7e7e7;
 }
 
 .myworkDesktop-item img {
