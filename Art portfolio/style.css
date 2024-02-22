@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   height: 100vh;
   overflow: visible;
-  height: 200vh;
+  height:auto;
 }
 /* Mobile mode */
 @media (max-width: 767px) {
