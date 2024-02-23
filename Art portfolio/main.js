@@ -29,7 +29,7 @@ function handleImage() {
   var red = colorValues[0];
   var green = colorValues[1];
   var blue = colorValues[2];
-  var backgroundColor = `rgba(${red}, ${green}, ${blue},0.2)`;
+  var backgroundColor = `rgba(${red}, ${green}, ${blue},0.1)`;
 
   document.body.style.backgroundColor = backgroundColor;
 
@@ -63,13 +63,13 @@ function handleImage() {
   // Set the background color of the specified div with 100% alpha
    colorString = maxColor;
    colorValues = colorString.match(/\d+/g).map(Number); // Extract numbers using regex and convert to numbers
-   red = colorValues[0]/7;
-   green = colorValues[1]/7;
-   blue = colorValues[2]/7;
+   red = colorValues[0]/9;
+   green = colorValues[1]/9;
+   blue = colorValues[2]/9;
    backgroundColor = `rgba(${red}, ${green}, ${blue})`;
   document.getElementById('content4').style.backgroundColor = backgroundColor;
 
-  scrolldown();
+  //scrolldown();
 
 }
 
